@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div id="App">
+    <div id="app">
     <Router>
       <div id='grid-container'> 
         <nav id='nav-bar'>
