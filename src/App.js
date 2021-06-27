@@ -3,15 +3,14 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import AboutContainer from './containers/AboutContainer';
 import CodeContainer from './containers/CodeContainer';
 import HomeContainer from './containers/HomeContainer';
-
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div class="App">
-
+    <div id="App">
     <Router>
-      <div> 
-        <nav>
+      <div id='grid-container'> 
+        <nav id='nav-bar'>
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -35,9 +34,10 @@ function App() {
             <HomeContainer />
           </Route>
         </Switch>
+        <Footer/>
       </div>
     </Router>
-
+    
     </div>
   );
 }
