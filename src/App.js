@@ -1,28 +1,17 @@
 import './App.css';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AboutContainer from './containers/AboutContainer';
 import CodeContainer from './containers/CodeContainer';
 import HomeContainer from './containers/HomeContainer';
 import Footer from './components/Footer';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div id="app">
     <Router>
       <div id='grid-container'> 
-        <nav id='nav-bar'>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/code">Code</Link>
-            </li>
-          </ul>
-        </nav>
+        <NavBar/>
         <Switch>
           <Route path="/about">
             <AboutContainer />

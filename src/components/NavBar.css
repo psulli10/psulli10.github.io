@@ -1,0 +1,28 @@
+
+
+#nav-bar > ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-self: center;
+}
+
+#nav-bar > ul > li {
+  margin: 10px;
+  background-color: black;
+  color: azure;
+  border-radius: 5%;
+}
+
+#nav-bar > ul > li > a {
+  text-decoration: none;
+  color: inherit;
+  padding: 20px;
+  font-size: larger;
+}
+
+#nav-bar > ul > li:hover {
+  background-color: azure;
+  color: black;
+}
