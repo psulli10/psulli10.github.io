@@ -1,4 +1,4 @@
-const aboutData = [
+const codeData = [
     {
         url: null,
         text: "Some test text about Peter Sullivan",
@@ -14,3 +14,5 @@ const aboutData = [
         github: "https://github.com/psulli10"
     }
 ]
+
+export default codeData;
