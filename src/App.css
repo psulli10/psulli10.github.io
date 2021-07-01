@@ -14,18 +14,24 @@
   height: 100%;
   width: 100%;
   grid-template-columns: 1fr;
-  grid-template-rows: 2fr 7fr 1fr;
+  grid-template-rows: 1fr 9fr 1fr;
 }
 
 #nav-bar {
   grid-area: nav-bar;
-  justify-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%
 }
 
 #main-image {
   grid-area: main-image;
-  align-self: flex-start;
-  justify-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  width: 100%;
 }
 
 #footer {

@@ -1,7 +1,7 @@
 const HomeContainer = () => {
     return (
         <div id='main-image'>
-        <h1>Main Container</h1>
+        <h1>Hello!</h1>
         </div>
     )
 }
