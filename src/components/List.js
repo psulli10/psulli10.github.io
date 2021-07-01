@@ -7,7 +7,7 @@ const List = ({ array, id }) => {
   });
 
   return (
-    <div id={id}>
+    <div className='list' id={id}>
       <ul>{listNodes}</ul>
     </div>
   );
